@@ -12,5 +12,5 @@
 \beamer@subsectionintoc {2}{3}{Liste de projets}{17}{0}{2}
 \beamer@subsectionintoc {2}{4}{Demande de projet approuvé}{18}{0}{2}
 \beamer@subsectionintoc {2}{5}{Page Demandes De Projet - Demande}{19}{0}{2}
-\beamer@sectionintoc {3}{Demo}{22}{0}{3}
-\beamer@sectionintoc {4}{Remerciements}{23}{0}{4}
+\beamer@sectionintoc {3}{Demo}{24}{0}{3}
+\beamer@sectionintoc {4}{Remerciements}{25}{0}{4}

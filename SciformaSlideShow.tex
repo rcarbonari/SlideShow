@@ -11,7 +11,7 @@
 %\let\note\undefined
 \let\note\relax 
 
-\usepackage[text= blue, background = white , arrow = red ]{callouts}
+\usepackage[text= purple, background = white , arrow = red ]{callouts}
 \usepackage{tikz}
 
 %\let\oldcommand\culprit % command from package A causing errors in package B.
@@ -339,8 +339,35 @@ Voici la page d'accueil - liste de demandes de projets approuvés et non approuv
 %\caption{Page d'accueil}
 \end{figure}
 \end{frame}
-
-
+%---------------------------
+\begin{frame}
+\transwipe 
+  \centering
+    \begin{annotate}{\includegraphics[width=0.35\textwidth]{Projet_a_soumettre}}{0.35}
+        %\helpgrid[gray]
+        %\note{6,-0.5}{les utilisateurs réguliers n'ont pas accès à cette option}
+        \callout{6.5,0}{Champs nouvellement saisis}{0,0}
+        %\arrow{-3,-2.4}{-4.5,-3}
+        
+        %\draw[very thick,red] (-3,-6.5) rectangle (-6.5,-5.75);
+    \end{annotate}
+    
+    \end{frame}
+    
+\begin{frame}
+\transwipe 
+  \centering
+    \begin{annotate}{\includegraphics[width=0.35\textwidth]{ Liste-demandes-projets-Nouveau}}{0.35}
+        %\helpgrid[gray]
+        %\note{6,-0.5}{les utilisateurs réguliers n'ont pas accès à cette option}
+        \callout{4,-4}{Projet nouvellement créé}{-3,-6.25}
+%        \arrow{-3,-2.4}{-4.5,-3}
+        
+        \draw[very thick,red] (-3,-6.5) rectangle (-6.5,-5.75);
+    \end{annotate}
+    
+\end{frame}
+%---------------------------
 \begin{frame}
 \transwipe 
 %\label{pictures}
