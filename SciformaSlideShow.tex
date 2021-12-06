@@ -115,16 +115,17 @@ Début du projet:
 \end{frame}
 
 \begin{frame}
+\transglitter
 \frametitle{Le contexte}
 La demande:	
 \begin{itemize}%[<.->]
-	\item Le formulaire Web devait remplir certaines fonctions de validation.
-	\item Les données, une fois validées, devaient être stockées dans une BD pour approbation ultérieure par le personnel de BESP.
-	\item Une fois validé et approuvé, le formulaire devait transmettre les données à Sciforma et y créer un nouveau projet.
+	\item Le formulaire Web devait remplir certaines fonctions de validation.\pause
+	\item Les données, une fois validées, devaient être stockées dans une BD pour approbation ultérieure par le personnel de BESP.\pause
+	\item Une fois validé et approuvé, le formulaire devait transmettre les données à Sciforma et y créer un nouveau projet.\pause
 	\begin{itemize}
-		\item Via une API REST fournie par Rego Consulting.
+		\item Via une API REST fournie par Rego Consulting.\pause
 	\end{itemize}
-	\item Le système doit envoyer des messages d'accusé de réception automatisés.
+	\item Le système doit envoyer des messages d'accusé de réception automatisés.\pause
 	%\note[item]{blah}
 \end{itemize}
 
@@ -343,21 +344,18 @@ Voici la page d'accueil - liste de demandes de projets approuvés et non approuv
 \begin{frame}
 \transwipe 
   \centering
-  
-
-    \begin{figure}
+      \begin{figure}
     \centering
     \begin{annotate}{\includegraphics[width=0.75\textwidth]{Projet_a_soumettre}}{0.45}
         %\helpgrid[gray]
         %\note{6,-0.5}{les utilisateurs réguliers n'ont pas accès à cette option}
-        \callout{6.5,0}{Champs saisis}{0,0}
+        \callout{7.5,2}{Titre du nouveau projet qui apparaîtra dans Sciforma}{-1,2}
         %\arrow{-3,-2.4}{-4.5,-3}
         
-        %\draw[very thick,red] (-3,-6.5) rectangle (-6.5,-5.75);
+        \draw[very thick,red] (-1,2.5) rectangle (-4,1.25);
     \end{annotate}
 \end{figure}
- 
-    \end{frame}
+\end{frame}
     
 %++++++++++++++++++++++++++++++++++++++++++++++++++++=
 \begin{frame}
