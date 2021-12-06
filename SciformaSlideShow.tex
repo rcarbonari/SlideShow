@@ -47,7 +47,7 @@
 
 \usepackage[T1]{fontenc}
 \usepackage{uarial}
-
+%\usepackage{multicol}
 \addtobeamertemplate{navigation symbols}{}{%
     \usebeamerfont{footline}%
     \usebeamercolor[fg]{footline}%
@@ -343,40 +343,83 @@ Voici la page d'accueil - liste de demandes de projets approuvés et non approuv
 \begin{frame}
 \transwipe 
   \centering
+  
+
+    \begin{figure}
+    \centering
     \begin{annotate}{\includegraphics[width=0.75\textwidth]{Projet_a_soumettre}}{0.45}
         %\helpgrid[gray]
         %\note{6,-0.5}{les utilisateurs réguliers n'ont pas accès à cette option}
-        \callout{6.5,0}{Champs nouvellement saisis}{0,0}
+        \callout{6.5,0}{Champs saisis}{0,0}
         %\arrow{-3,-2.4}{-4.5,-3}
         
         %\draw[very thick,red] (-3,-6.5) rectangle (-6.5,-5.75);
     \end{annotate}
-    
+\end{figure}
+ 
     \end{frame}
     
+%++++++++++++++++++++++++++++++++++++++++++++++++++++=
 \begin{frame}
 \transwipe 
-  \centering
-    \begin{annotate}{\includegraphics[width=0.35\textwidth]{ Liste-demandes-projets-Nouveau}}{0.35}
+\begin{columns}
+\column{0.55\textwidth}
+  %===============================
+  
+
+    \centering
+    \begin{annotate}{\includegraphics[width=0.85\textwidth]{home_list}}{0.5}
         %\helpgrid[gray]
         %\note{6,-0.5}{les utilisateurs réguliers n'ont pas accès à cette option}
-        \callout{4,-4}{Projet nouvellement créé}{-3,-6.25}
+        %\callout{5,1}{visible uniquement pour les chefs de projet}{1,2.25}
+        \arrow{1,2.5}{8.5,1}
+        % And raw tikz
+%        \draw[very thick,red] (-2,-1.5) rectangle (1.5,2.5);
+    \end{annotate}
+%    \caption{callouts package}
+    %\label{fig:first}
+
+  
+  %===============================
+  \column{0.55\textwidth}
+
+    \centering
+    \begin{annotate}{\includegraphics[width=0.85\textwidth]{ Liste-demandes-projets-Nouveau}}{0.35}
+       % \helpgrid[gray]
+        %\note{6,-0.5}{les utilisateurs réguliers n'ont pas accès à cette option}
+        \callout{4,-7}{Projet nouvellement créé}{-4,-8.5}
 %        \arrow{-3,-2.4}{-4.5,-3}
         
-        \draw[very thick,red] (-3,-6.5) rectangle (-6.5,-5.75);
+        \draw[very thick,red] (-4,-9) rectangle (-9,-7.75);
+       
     \end{annotate}
-    
+    \end{columns}   
+
 \end{frame}
-%---------------------------
+%+++++++++++++++++++++++++++++++++++++++++++++
+
+%Projet_a_soumettre-envoy
 \begin{frame}
 \transwipe 
-%\label{pictures}
-\frametitle{Email de confirmation}
-Voici un exemple d'e-mail de confirmation reçu après une nouvelle soumission d'une demande de projet:
+\frametitle{Soumission de projet et email de confirmation}
+\begin{columns}
+\column{0.55\textwidth}
+ \begin{annotate}{\includegraphics[width=0.85\textwidth]{ Projet_a_soumettre-envoy}}{0.35}
+       %\helpgrid[gray]
+        %\note{6,-0.5}{les utilisateurs réguliers n'ont pas accès à cette option}
+        \callout{4,-7}{chefs de projet uniquement}{-2,-7}
+        \arrow{-2.25,-6}{13.5,-3}
+        
+        \draw[very thick,red] (-2.25,-8) rectangle (-9.25,-6);
+       
+    \end{annotate}
+\column{0.55\textwidth}
+%Voici un exemple d'e-mail de confirmation reçu après une nouvelle soumission d'une demande de projet:
 \begin{figure}
 \includegraphics[scale=0.35]{emailConfResubmissionMsg}
 %\caption{Page d'accueil}
 \end{figure}
+ \end{columns}   
 \end{frame}
 
 \section{Demo}
