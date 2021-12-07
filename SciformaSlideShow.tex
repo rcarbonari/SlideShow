@@ -382,13 +382,13 @@ Voici la page d'accueil - liste de demandes de projets approuvés et non approuv
   \column{0.55\textwidth}
 
     \centering
-    \begin{annotate}{\includegraphics[width=0.85\textwidth]{ Liste-demandes-projets-Nouveau}}{0.35}
-       % \helpgrid[gray]
+    \begin{annotate}{\includegraphics[width=0.75\textwidth]{ Liste-demandes-projets-Nouveau}}{0.35}
+        %\helpgrid[gray]
         %\note{6,-0.5}{les utilisateurs réguliers n'ont pas accès à cette option}
-        \callout{4,-7}{Projet nouvellement créé}{-4,-8.5}
+        \callout{4,-7}{Projet nouvellement créé}{-3.5,-7}
 %        \arrow{-3,-2.4}{-4.5,-3}
         
-        \draw[very thick,red] (-4,-9) rectangle (-9,-7.75);
+        \draw[very thick,red] (-3.5,-7.75) rectangle (-7.75,-6.75);
        
     \end{annotate}
     \end{columns}   
@@ -406,20 +406,86 @@ Voici la page d'accueil - liste de demandes de projets approuvés et non approuv
        %\helpgrid[gray]
         %\note{6,-0.5}{les utilisateurs réguliers n'ont pas accès à cette option}
         \callout{4,-7}{chefs de projet uniquement}{-2,-7}
-        \arrow{-2.25,-6}{13.5,-3}
+        \arrow{-2.25,-6}{12.5,0}
         
         \draw[very thick,red] (-2.25,-8) rectangle (-9.25,-6);
        
     \end{annotate}
 \column{0.55\textwidth}
 %Voici un exemple d'e-mail de confirmation reçu après une nouvelle soumission d'une demande de projet:
-\begin{figure}
-\includegraphics[scale=0.35]{emailConfResubmissionMsg}
-%\caption{Page d'accueil}
-\end{figure}
+
+   \begin{annotate}{\includegraphics[width=0.7\textwidth]{home_list}}{0.45}
+        %\helpgrid[gray]
+        %\note{6,-0.5}{les utilisateurs réguliers n'ont pas accès à cette option}
+     %   \callout{5,1}{visible uniquement pour les chefs de projet}{1,2.25}
+%        \arrow{-3,-2.4}{-4.5,-3}
+        % And raw tikz
+%        \draw[very thick,red] (-2,-1.5) rectangle (1.5,2.5);
+    \end{annotate}
+%\begin{figure}
+%\includegraphics[scale=0.35]{emailConfResubmissionMsg}
+%%\caption{Page d'accueil}
+%\end{figure}
  \end{columns}   
 \end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++=
+\begin{frame}
+\transwipe 
+\begin{columns}
+\column{0.55\textwidth}
+  %===============================
+  
 
+    \centering
+    \begin{annotate}{\includegraphics[width=0.95\textwidth]{liste_de_projets_approuve}}{0.5}
+        %\helpgrid[gray]
+        %\note{6,-0.5}{les utilisateurs réguliers n'ont pas accès à cette option}
+        %\callout{5,1}{visible uniquement pour les chefs de projet}{1,2.25}
+       % \arrow{1,2.5}{8.5,1}
+        \arrow{-2,0.5}{7.5,1}
+        % And raw tikz
+        %\draw[very thick,red] (-2,-1.5) rectangle (1.5,2.5);
+        \draw[very thick,red] (-4.35,0) rectangle (-2,1);
+    \end{annotate}
+%    \caption{callouts package}
+    %\label{fig:first}
+
+  
+  %===============================
+  \column{0.55\textwidth}
+%  \caption{Sciforma}
+    \centering
+    \begin{annotate}{\includegraphics[width=0.95\textwidth]{SciformaProj249}}{0.35}
+       %\helpgrid[gray]
+        %\note{6,-0.5}{les utilisateurs réguliers n'ont pas accès à cette option}
+        \callout{-1,-6.5}{Projet nouvellement approuvé}{7,-5.25}
+        \arrow{-0.5,-5.75}{-1.75,0.25}
+         \draw[very thick,red] (-3,1.75) rectangle (0.5,0.5);
+           \draw[very thick,red] (7,-4.75) rectangle (10.5,-5.75);
+    \end{annotate}
+    \end{columns}   
+
+\end{frame}
+%+++++++++++++++++++++++++++++++++++++++++++++
+%-----------------------------------------------------------------------------------------
+\begin{frame}
+\transwipe 
+  \centering
+      \frametitle{Courriel d'approbation du projet}
+      \begin{figure}
+    
+    \centering
+    \begin{annotate}{\includegraphics[width=0.54\textwidth]{email-approuve}}{0.55}
+        %\helpgrid[gray]
+        %\note{6,-0.5}{les utilisateurs réguliers n'ont pas accès à cette option}
+        %\callout{7.5,2}{Titre du nouveau projet qui apparaîtra dans Sciforma}{-1,2}
+        %\arrow{-3,-2.4}{-4.5,-3}
+        
+       % \draw[very thick,red] (-1,2.5) rectangle (-4,1.25);
+    \end{annotate}
+\end{figure}
+\end{frame}
+%-----------------------------------------------------------------------------------------
 \section{Demo}
 \begin{frame}
 \transwipe 

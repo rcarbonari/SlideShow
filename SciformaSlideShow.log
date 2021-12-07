@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.12)  6 DEC 2021 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.12)  7 DEC 2021 11:31
 entering extended mode
 **./SciformaSlideShow.tex
 (SciformaSlideShow.tex
@@ -1307,43 +1307,75 @@ File: Liste-demandes-projets-Nouveau.png Graphic file (type png)
 <use Liste-demandes-projets-Nouveau.png>
 Package pdftex.def Info: Liste-demandes-projets-Nouveau.png  used on input line
  396.
-(pdftex.def)             Requested size: 186.22565pt x 189.32927pt.
+(pdftex.def)             Requested size: 164.31557pt x 167.04893pt.
 \xtic=\dimen314
 \ytic=\dimen315
 
-Overfull \vbox (10.58527pt too high) detected at line 396
+Overfull \vbox (5.04532pt too high) detected at line 396
  []
 
 [27
 
  <./Liste-demandes-projets-Nouveau.png>]
-<Projet_a_soumettre-envoy.png, id=1176, 358.33875pt x 295.85532pt>
+<Projet_a_soumettre-envoy.png, id=1177, 358.33875pt x 295.85532pt>
 File: Projet_a_soumettre-envoy.png Graphic file (type png)
 <use Projet_a_soumettre-envoy.png>
-Package pdftex.def Info: Projet_a_soumettre-envoy.png  used on input line 421.
+Package pdftex.def Info: Projet_a_soumettre-envoy.png  used on input line 430.
 (pdftex.def)             Requested size: 186.22565pt x 153.75536pt.
 \xtic=\dimen316
 \ytic=\dimen317
 
-Overfull \hbox (12.51653pt too wide) in paragraph at lines 421--421
+Overfull \hbox (2.55789pt too wide) in paragraph at lines 430--430
 [] 
  []
 
-<emailConfResubmissionMsg.png, id=1177, 517.18219pt x 375.65344pt>
-File: emailConfResubmissionMsg.png Graphic file (type png)
-<use emailConfResubmissionMsg.png>
-Package pdftex.def Info: emailConfResubmissionMsg.png  used on input line 421.
-(pdftex.def)             Requested size: 181.01648pt x 131.48067pt.
+File: home_list.png Graphic file (type png)
+<use home_list.png>
+Package pdftex.def Info: home_list.png  used on input line 430.
+(pdftex.def)             Requested size: 153.36052pt x 140.15303pt.
+\xtic=\dimen318
+\ytic=\dimen319
 
-Overfull \vbox (7.1869pt too high) detected at line 421
+Overfull \vbox (7.1869pt too high) detected at line 430
  []
 
 [28
 
- <./Projet_a_soumettre-envoy.png> <./emailConfResubmissionMsg.png>] [29
+ <./Projet_a_soumettre-envoy.png>]
+<liste_de_projets_approuve.png, id=1217, 603.0028pt x 429.85594pt>
+File: liste_de_projets_approuve.png Graphic file (type png)
+<use liste_de_projets_approuve.png>
+Package pdftex.def Info: liste_de_projets_approuve.png  used on input line 468.
 
-]
+(pdftex.def)             Requested size: 208.13239pt x 148.36604pt.
+\xtic=\dimen320
+\ytic=\dimen321
+<SciformaProj249.png, id=1218, 712.91344pt x 386.19281pt>
+File: SciformaProj249.png Graphic file (type png)
+<use SciformaProj249.png>
+Package pdftex.def Info: SciformaProj249.png  used on input line 468.
+(pdftex.def)             Requested size: 208.13239pt x 112.74731pt.
+\xtic=\dimen322
+\ytic=\dimen323
+ [29
+
+ <./liste_de_projets_approuve.png> <./SciformaProj249.png>]
+<email-approuve.png, id=1255, 513.41812pt x 367.3725pt>
+File: email-approuve.png Graphic file (type png)
+<use email-approuve.png>
+Package pdftex.def Info: email-approuve.png  used on input line 487.
+(pdftex.def)             Requested size: 215.10016pt x 153.9142pt.
+\xtic=\dimen324
+\ytic=\dimen325
+
+Overfull \vbox (0.74574pt too high) detected at line 487
+ []
+
 [30
+
+ <./email-approuve.png>] [31
+
+] [32
 
 ]
 \tf@nav=\write6
@@ -1355,37 +1387,31 @@ Overfull \vbox (7.1869pt too high) detected at line 421
 \tf@snm=\write8
 \openout8 = `SciformaSlideShow.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 446.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 446.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 512.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 512.
  (SciformaSlideShow.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 446.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 446.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 512.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 512.
+Package rerunfilecheck Info: File `SciformaSlideShow.out' has not changed.
+(rerunfilecheck)             Checksum: BF66BC9A614D08BB01976BC8862C652D;978.
 
-
-Package rerunfilecheck Warning: File `SciformaSlideShow.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `SciformaSlideShow.out':
-(rerunfilecheck)             Before: AE9CBBED52F84947F2AEEE658853A019;2279
-(rerunfilecheck)             After:  BF66BC9A614D08BB01976BC8862C652D;978.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 23693 strings out of 481565
- 467111 string characters out of 2923935
- 720184 words of memory out of 3000000
- 38274 multiletter control sequences out of 15000+200000
+ 23723 strings out of 481565
+ 467646 string characters out of 2923935
+ 720179 words of memory out of 3000000
+ 38300 multiletter control sequences out of 15000+200000
  594685 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,19n,80p,786b,999s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/carrob00/A
 ppData/Roaming/MiKTeX/2.9/fonts/type1/urw/arial/ua1r8a.pfb>
-Output written on SciformaSlideShow.pdf (30 pages, 509751 bytes).
+Output written on SciformaSlideShow.pdf (32 pages, 569967 bytes).
 PDF statistics:
- 1307 PDF objects out of 1440 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 602 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1387 PDF objects out of 1440 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 630 words of extra memory for PDF output out of 10000 (max. 10000000)
 
